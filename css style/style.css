@@ -17,7 +17,6 @@ header img{
 }
 nav{
     margin: 0 auto;
-    max-width: 1600px;
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
@@ -27,6 +26,7 @@ nav .menu{
     display: flex;
     gap: 32px;
     list-style-type: none;
+align-items: center;
 }
 nav .menu a{
 text-align: center;
@@ -41,5 +41,94 @@ text-align: center;
     border: none;
     border-radius: 4px;
     font-size: 16px;
-    font-weight: 300px;
+    font-weight: 600px;
+}
+.background-image{
+    height: 500px;
+    background-image: url("../image/hero-bg.png");
+     background-size: cover;
+     text-align: center;
+     align-items: center;
+ 
+}
+.background-image button{
+    margin-top: 124px;
+    width: 230px;
+    height: 35px;
+    background-color: white;
+    color: #469165;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+.background-image .h1{
+    color: white;
+    width: 770px;
+    height: 170px;
+    margin-top: 20px;
+}
+.background-image .text{
+    color: #30B868;
+    width: 770px;
+    height: 170px;
+
+}
+.background-image p{
+    color: white;
+    font-size: 18px;
+}
+.mainbt .button1{
+    background-color: #469165;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.mainbt .button2{
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid white;
+    color: #ffff;
+}
+#skills {
+    padding-top: 24px;
+}
+#skills .skills-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.section-heading{
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading h1{
+    font-size: 48px;
+}
+.section-heading p{
+    color: #627382;
+    font-size: 14px;
+}
+#skills .skills-container .skill-box{
+    display: flex;
+    gap: 40px;
+}
+.skill-card{
+    box-shadow: 0 0 8px 0;
+    color: #0000001b;
+    padding: 24px;
+    max-width: 322px;
+    margin-top: 30px;
+}
+.skill-card img{
+    align-items: center;
+    background-color: red;
+    max-width: 60px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
 }
