@@ -42,6 +42,7 @@ text-align: center;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600px;
+    cursor: pointer;
 }
 .background-image{
     height: 500px;
@@ -83,6 +84,7 @@ text-align: center;
     cursor: pointer;
     font-size: 16px;
     border-radius: 4px;
+    cursor: pointer;
 }
 .mainbt .button2{
     background-color: transparent;
@@ -90,6 +92,7 @@ text-align: center;
     font-size: 16px;
     border: 1px solid white;
     color: #ffff;
+    cursor: pointer;
 }
 #skills {
     padding-top: 24px;
@@ -122,13 +125,81 @@ text-align: center;
     margin-top: 30px;
 }
 .skill-card img{
+    text-align: center;
     align-items: center;
     background-color: red;
-    max-width: 60px;
     border-radius: 50%;
-    margin-bottom: 24px;
     justify-content: center;
     margin: 0 auto;
-    width: 50%;
-    height: 50%;
+    padding-left: 15px;
+    padding-right: 14px;
+    width: 60px;
+size: 3px;
+padding-bottom: 17px;
+}
+.skill-card h4{
+    color: #001931;
+    padding-bottom: 12px;
+}
+.skill-card p{
+    color: #627382;
+    font-size: 16px;
+}
+#step {
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#step img{
+    width: 2800ox;
+    height: 300px;
+    margin-left: 50px;
+}
+.step-container{
+    padding-top: 52px;
+
+}
+.step-container p{
+    font-size: 12px;
+    color: #469165;
+    padding-bottom: 24px;
+}
+.step-container h1{
+    color: #001931;
+padding-bottom: 24px;
+}
+.after-step{
+    color: #001931;
+    text-decoration: none;
+    list-style-type: none;
+}
+.after-step li{
+    background: url("../image/CheckCircle.png") no-repeat;
+    padding-left: 25px;
+    
+}
+#last{
+    padding-top: 0;
+}
+#last .last-container{
+    width: 80%;
+    max-width: 1280px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    padding: 40px 80px;
+}
+.last-container h1{
+    padding-bottom: 16px;
+    color: #001931;
+}
+.last-container p{
+    padding-bottom: 16px;
+    color: #627382;
+    font-size: 16px;
+}
+.last-container .btn{
+    margin-bottom: 16px;
+    cursor: pointer;
 }
